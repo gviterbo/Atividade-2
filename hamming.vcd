@@ -1,0 +1,129 @@
+$date
+	Mon Mar 11 13:21:43 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_hamming $end
+$var wire 11 ! saida [10:0] $end
+$var wire 15 " h15 [14:0] $end
+$var wire 15 # alterado [14:0] $end
+$var reg 11 $ entrada [10:0] $end
+$var reg 1 % injeta_erro $end
+$var reg 4 & n [3:0] $end
+$var integer 32 ' i [31:0] $end
+$scope module cah $end
+$var wire 11 ( entrada [0:10] $end
+$var wire 15 ) saida [0:14] $end
+$upscope $end
+$scope module coh $end
+$var wire 1 * p1 $end
+$var wire 1 + p2 $end
+$var wire 1 , p4 $end
+$var wire 1 - p8 $end
+$var wire 4 . n [3:0] $end
+$var wire 15 / entrada [0:14] $end
+$var reg 15 0 mask [0:14] $end
+$var reg 15 1 result [0:14] $end
+$var reg 11 2 saida [0:10] $end
+$upscope $end
+$scope module inj $end
+$var wire 15 3 entrada [14:0] $end
+$var wire 1 % erro $end
+$var wire 4 4 n [3:0] $end
+$var reg 15 5 mask [14:0] $end
+$var reg 15 6 saida [14:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 6
+b0 5
+b1001 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+0-
+0,
+0+
+0*
+b0 )
+b0 (
+b0 '
+b1001 &
+0%
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#1
+b1000000000 0
+b110 .
+1,
+1+
+b0 !
+b0 2
+b0 1
+b1000000000 #
+b1000000000 /
+b1000000000 6
+b1000000000 5
+1%
+b1 '
+#2
+b0 0
+b0 .
+0,
+0+
+b0 !
+b0 2
+b0 1
+b0 #
+b0 /
+b0 6
+b0 5
+0%
+b10 '
+#3
+b1000000000 0
+b110 .
+1+
+1*
+b1000000000 !
+b1000000000 2
+b100110000000000 1
+b100111000000000 #
+b100111000000000 /
+b100111000000000 6
+b1000000000 5
+b100110000000000 "
+b100110000000000 )
+b100110000000000 3
+1%
+b1000000000 $
+b1000000000 (
+b11 '
+#4
+b0 0
+b0 .
+1,
+0+
+b1000000000 !
+b1000000000 2
+b100110000000000 1
+b100110000000000 #
+b100110000000000 /
+b100110000000000 6
+b0 5
+0%
+b100 '
+#5
+b101 '

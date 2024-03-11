@@ -1,2 +1,3 @@
-# Atividade-2
-Apenas um repositório temporário
+# Laboratório 02 - Cálculo e Verificação de Paridade
+
+Veja instruções no enunciado da disciplina.
